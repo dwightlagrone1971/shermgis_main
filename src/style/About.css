@@ -1,0 +1,24 @@
+a {
+    text-decoration: none;
+}
+h1 {
+    font-size: 2.8rem;
+}
+
+.about {
+    margin-top: 30px !important;
+    padding-bottom: 50px !important;
+    width:45%;    
+    justify-content: center;
+}
+.about__container {
+    justify-content: center;
+}
+.about__btn {
+    font-size: 14px !important;
+    color: #f8f8f8 !important;
+    background-color: #4a4a4a !important;
+    width: 100%;
+    padding: 8px;
+    border-radius: 0 !important;
+}

@@ -1,0 +1,20 @@
+.a {
+    text-decoration: none;
+}
+h1 {
+    font-size: 2.8rem;
+    color: #4a4a4a;
+    padding-bottom: 30px;
+}
+.download {
+    margin-top: 50px;
+    width:40%;    
+    justify-content: center;
+}
+.download__btn {
+    font-size: 14px !important;
+    color: #f8f8f8 !important;
+    background-color: #4a4a4a !important;
+    width: 100%;
+    border-radius: 0 !important;
+}

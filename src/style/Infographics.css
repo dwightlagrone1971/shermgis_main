@@ -1,0 +1,25 @@
+.large {
+    margin-top: 20px;
+    font-size: 45px;
+    color: #4a4a4a;
+}
+.graphics {
+    margin-top: 20px;
+    padding-top: 50px;
+    width: 45%;
+}
+.graphics__container {
+    justify-content: center;
+    padding-top: 55px;
+}
+.graphics__grid {
+    justify-content: center;
+    padding-top: 10px;
+}
+.graphics__btn {
+    font-size: 14px !important;
+    color: #f8f8f8 !important;
+    background-color: #4a4a4a !important;
+    width: 100%;
+    border-radius: 0 !important;
+}

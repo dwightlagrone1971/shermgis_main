@@ -16,12 +16,12 @@ const items = [
 
 function Menu() {
   return (
-    <div className="menu__container">
-      <nav className="menu">
+    <div className="menu">
+      <nav className="menu__container">
 
         <Grid container spacing={6} rowSpacing={3}>
           {items.map((item, idx) => (
-            <Grid item xs={12} md={4}>
+            <Grid item xs={12} md={2}>
               <Link 
                 to={item.to} 
                 style={{ textDecoration: 'none' }}      
