@@ -5,7 +5,7 @@ import { Button } from '@material-ui/core';
 import Grid from '@mui/material/Grid';
 
 const items = [
-    { name: "Home", to: "/" },
+    { name: "Featured Maps", to: "/" },
     { name: "GIS Downloads", to: "/downloads" },
     { name: "Infographics", to: "/graphics" },
     { name: "Internal Maps", to: "/internal" },

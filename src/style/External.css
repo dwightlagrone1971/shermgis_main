@@ -1,19 +1,18 @@
-.a {
+a {
     text-decoration: none;
 }
 h1 {
-    padding-bottom: 20px;
+    margin-top: 40px;;
     font-size: 2.8rem;
-    color: #4a4a4a;
-    padding-bottom: 30px;
 }
-.download {
-    margin-top: 20px;
-    width:40%;    
+.external {
+    width:50%;    
     justify-content: center;
 }
-.download__btn {
-    font-size: 14px !important;
+.external__container {
+    justify-content: center;
+}
+.external__btn {
     color: #f8f8f8 !important;
     background-color: #4a4a4a !important;
     width: 100%;

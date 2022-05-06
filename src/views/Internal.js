@@ -9,8 +9,8 @@ const items = [
   { name: "Code Simple Map", href: "https://cityofsherman.maps.arcgis.com/apps/webappviewer/index.html?id=193d2f120fa947aeb6fe65989faef9a9" },
   { name: "Detailed Parks Map", href: "https://cityofsherman.maps.arcgis.com/apps/webappviewer/index.html?id=78f0ba56e43a4edeb9e2166ebf7c7337" },
   { name: "Mowing Map", href: "https://cityofsherman.maps.arcgis.com/apps/webappviewer/index.html?id=1e4c344342414fbba77d9805a67a61a4" },
-  { name: "Planned Developments", href: "https://cityofsherman.maps.arcgis.com/apps/webappviewer/index.html?id=1b043cbadf884e95bf7b84e9813fa952" },
-  { name: "Storm Water Fees", href: "https://cityofsherman.maps.arcgis.com/apps/webappviewer/index.html?id=6ff28e8cc3fa4cd69d80b9077eec3f1c" },
+  { name: "Planned Developments", href: "https://cityofsherman.maps.arcgis.com/apps/webappviewer/index.html?id=1b043cbadf884e95bf7b84e9813fa952"},
+  { name: "Storm Water Fees", href: "https://cityofsherman.maps.arcgis.com/apps/webappviewer/index.html?id=6ff28e8cc3fa4cd69d80b9077eec3f1c"},
 ];
 
 function Internal() {

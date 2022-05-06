@@ -4,6 +4,7 @@ import Header from './components/Header.js';
 import Menu from './components/Menu.js';
 import Footer from './components/Footer.js';
 import Home from './views/Home.js';
+import External from './views/External.js';
 import Downloads from './views/Downloads.js';
 import Contacts from './views/Contacts.js';
 import Infographics from './views/Infographics.js';
@@ -23,6 +24,7 @@ function App() {
         <Routes>
           <Route>
             <Route path='/' element={ <Home /> }></Route>
+            <Route path='/external' element={ <External />}></Route>
             <Route path='/downloads' element={ <Downloads /> }></Route>
             <Route path='/contacts' element={ <Contacts /> }></Route>
             <Route path='/graphics' element={ <Infographics /> }></Route>
