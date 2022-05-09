@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import '../style/Header.css'
 
 const Hero = styled.div`
   width: 100%;
@@ -26,6 +27,12 @@ function Header() {
         tablet="https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/49073d084b6c46e18df8442d5112731f/data"
         mobile="https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/83ed60f6820d4e51821b0f3d19713f78/data"
       />
+      <div>
+        <p className="headerText">City of Sherman, Texas</p>      
+      </div>
+      <div>
+        <p className="headerText1">GIS Department</p>   
+      </div>
     </div>
   );
 }
