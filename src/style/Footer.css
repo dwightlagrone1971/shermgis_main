@@ -1,13 +1,21 @@
 .footer {
-    width:100%;
+    width:100%;    
     text-align:center;
-    position:fixed;
-    bottom:0; 
-    color: #4a4a4a !important;
+    position:bottom;
     background-color: #4a4a4a;
     justify-content: center;
+    text-decoration: none !important;
 
 }
 .footer__container {
+    width: 60%;
     justify-content: center;
+}
+.footer__btn {
+    width: 200px;
+    margin-bottom: 20px !important;
+    color: #4a4a4a !important;
+    background-color: #f8f8f8 !important;
+    text-decoration: none !important;
+    border-radius: 0 !important;
 }
