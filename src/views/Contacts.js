@@ -2,11 +2,6 @@ import React from 'react'
 import NoteCard from './Notecard.js'
 import '../style/Contacts.css'
 import Grid from '@mui/material/Grid';
-import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
-import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
 
 const contacts = [
   { name: "Dwight LaGrone", title: "GIS Manager/IT", employer: "City of Sherman", Address: "420 N Rusk St", city: "Sherman, Tx 75090", phone: "(903) 892-7310", email:"dwightl@cityofsherman.com" },
