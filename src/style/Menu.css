@@ -13,5 +13,14 @@
     background-color: #f8f8f8 !important;
     color: #4a4a4a !important;
     border-radius: 0 !important;
+    width: 200px !important;    
+}
+.standout__btn {
+    background-color: #5a99d4 !important;
+    color: #4a4a4a !important;
+    border-radius: 0 !important;
     width: 200px !important;
 }
+
+
+
