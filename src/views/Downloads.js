@@ -4,28 +4,38 @@ import { Link } from "react-router-dom";
 import Button from '@mui/material/Button'
 import Grid from '@mui/material/Grid';
 
+const items = [
+  { name: "Addresses", href: "https://data-cityofsherman.opendata.arcgis.com/datasets/cityofsherman::addresses-1/about" },
+  { name: "City Limits", href: "https://data-cityofsherman.opendata.arcgis.com/datasets/cityofsherman::city-limits-2/about" },
+  { name: "Council Districts", href: "https://data-cityofsherman.opendata.arcgis.com/datasets/cityofsherman::council-districts-3/about" },
+  { name: "Extra Territorial Jurisdiction", href: "https://data-cityofsherman.opendata.arcgis.com/datasets/cityofsherman::extra-territorial-jurisdiction-e-t-j-/about" },
+  { name: "Future Land Use", href: "https://data-cityofsherman.opendata.arcgis.com/datasets/cityofsherman::future-land-use/about" },
+  { name: "Parcels", href: "https://data-cityofsherman.opendata.arcgis.com/datasets/cityofsherman::parcels-1/about" },  
+  { name: "Road Centerlines", href: "https://data-cityofsherman.opendata.arcgis.com/datasets/cityofsherman::road-centerlines-1/about" },
+  { name: "Zoning Districts", href: "https://data-cityofsherman.opendata.arcgis.com/datasets/cityofsherman::zoning-districts/about" },
+];
+
 function Downloads() {
   return (
-    <div className="download"> 
-      <h1>Download Page</h1>
-      <Grid container spacing={8}>
-        <Grid item xs={12} md={6}>
-          <a 
-            href="https://data-cityofsherman.opendata.arcgis.com/search?tags=download"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <Button className="download__btn" >Download GIS Data</Button>
-          </a>
-        </Grid>
-        <Grid item xs={12} md={6}>
-          <Link to="/contacts">
-            <Button className="download__btn" >Contact Us</Button>
-          </Link>
-        </Grid>
-      </Grid>    
-    </div>        
+    <div className="home"> 
+      <h1>Featured Maps</h1>
+      
+      <Grid container spacing={6}>
+        {items.map((data, idx) => (
+          <Grid item xs={12} md={4}>
+            <a 
+              target="_blank" 
+              rel="noreferrer"
+              href={data.href}       
+            >
+              <Button className="home__btn">{data.name}</Button>
+            </a>
+          </Grid>
+          ))}
+      </Grid>
+    </div>     
   ) 
 }
 
 export default Downloads
+
