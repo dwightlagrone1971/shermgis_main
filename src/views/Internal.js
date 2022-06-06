@@ -9,7 +9,7 @@ const items = [
   { name: "Code Simple Map", href: "https://cityofsherman.maps.arcgis.com/apps/instant/sidebar/index.html?appid=97013d9eff694c059406229d9df88b37" },
   { name: "Detailed Parks Map", href: "https://cityofsherman.maps.arcgis.com/apps/webappviewer/index.html?id=78f0ba56e43a4edeb9e2166ebf7c7337" },
   { name: "Mowing Map", href: "https://cityofsherman.maps.arcgis.com/apps/instant/sidebar/index.html?appid=ddab962963934f83bc0639b135562d26" },
-  { name: "Planned Developments", href: "https://cityofsherman.maps.arcgis.com/apps/instant/interactivelegend/index.html?appid=b6152aea0bfb458fa83dd8b6b248bbea"},
+  { name: "Planned Developments", href: "https://cityofsherman.maps.arcgis.com/apps/instant/sidebar/index.html?appid=0c92c7e9aeb24681ad89c56675d65977"},
   { name: "Storm Water Fees", href: "https://cityofsherman.maps.arcgis.com/apps/webappviewer/index.html?id=6ff28e8cc3fa4cd69d80b9077eec3f1c"},
 ];
 
@@ -23,7 +23,6 @@ function Internal() {
             <Grid item xs={12} md={4}>
               <a 
                 target="_blank" 
-                rel="noreferrer"
                 href={data.href}       
               >
                 <Button className="internal__btn">{data.name}</Button>
