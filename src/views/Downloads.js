@@ -18,7 +18,7 @@ const items = [
 function Downloads() {
   return (
     <div className="home"> 
-      <h1>Featured Maps</h1>
+      <h1>GIS Downloads</h1>
       
       <Grid container spacing={6}>
         {items.map((data, idx) => (
