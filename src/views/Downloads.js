@@ -20,7 +20,7 @@ function Downloads() {
     <div className="home"> 
       <h1>GIS Downloads</h1>
       
-      <Grid container spacing={6}>
+      <Grid container spacing={3}>
         {items.map((data, idx) => (
           <Grid item xs={12} md={4}>
             <a 
