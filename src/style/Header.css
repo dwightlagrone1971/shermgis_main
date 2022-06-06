@@ -4,19 +4,33 @@
     color: white;
     display: flex;
 }
-.headerText1 {
-    color: white;
-    font-size: 1.8rem;
-    display: flex;
+.headerText {
+    margin-top: 5px;
+    width: 100%;
+    float: right;
     position: absolute;
-    left: 30px;
-    top: 60px;
+}
+.headerText1 {
+    margin-left: 50px;
+    text-align: center;
+    margin-bottom: -35px;
+    color: white;
+    font-size: 1.4rem;
     font-family: cursive;
 }
-.headerText {
+.headerText2 {
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: -15px;
     color: white;
-    font-size: 2.4rem;
-    position: absolute;
-    left: 30px;
+    font-size: 2.6rem;
+}
+.headerText3 {
+    margin-left: 50px;
+    text-align: center;
+    color: white;
+    font-size: 1.4rem;
     font-family: cursive;
 }
