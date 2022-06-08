@@ -25,7 +25,6 @@ function External() {
             <Grid item xs={12} md={4}>
               <a 
                 target="_blank" 
-                rel="noreferrer"
                 href={data.href}       
               >
                 <Button className="internal__btn">{data.name}</Button>
