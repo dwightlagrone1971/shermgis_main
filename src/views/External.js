@@ -10,6 +10,7 @@ const items = [
   { name: "Sex Offender Restricted", href: "https://cityofsherman.maps.arcgis.com/apps/instant/sidebar/index.html?appid=446adf191c764b3e83a116072a77979d" },
   { name: "Parks & Recreation", href: "https://experience.arcgis.com/experience/bc3eea0caa5c4d6aae6b03de69b6561d/page/Sherman-Parks/?data_id=dataSource_add_from_url_entry-BaseLayers_2413%3A17&views=City-Parks" },
   { name: "Sherman Schools", href: "https://cityofsherman.maps.arcgis.com/apps/instant/sidebar/index.html?appid=a51f81f031d94df884004a01d5da5932" },
+  { name: "Trash & Pickup Days", href: "https://cityofsherman.maps.arcgis.com/apps/instant/lookup/index.html?appid=000839d23a014bd791bb19d4667f177c" },
   { name: "Zoning Map", href: "https://cityofsherman.maps.arcgis.com/apps/instant/sidebar/index.html?appid=d0d3a59dfbe2427d94a512bc5a586270" },
 ];
 
