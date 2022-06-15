@@ -19,8 +19,7 @@ function Home() {
         {items.map((data, idx) => (
           <Grid item xs={12} md={4}>
             <a 
-              target="_blank" 
-              rel="noreferrer"
+              target="_blank"
               href={data.href}       
             >
               <Button className="home__btn">{data.name}</Button>
