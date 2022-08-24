@@ -18,7 +18,7 @@ const items = [
 function Internal() {
   return (
     <div className="internal"> 
-      <h1>Internal Maps</h1>
+      <h1 className="int_heading">Internal Maps</h1>
 
         <Grid container spacing={6} rowSpacing={3}>
           {items.map((data, idx) => (

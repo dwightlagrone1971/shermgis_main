@@ -1,9 +1,10 @@
 a {
     text-decoration: none;
 }
-h1 {
+.ext_heading {
+    font-family: serif !important;
     margin-top: 40px;;
-    font-size: 2.8rem;
+    font-size: 3.0rem;
 }
 .external {
     width:50%;    
@@ -13,6 +14,8 @@ h1 {
     justify-content: center;
 }
 .external__btn {
+    font-family: serif !important;
+    font-size: 15px !important;
     color: #f8f8f8 !important;
     background-color: #4a4a4a !important;
     width: 100%;

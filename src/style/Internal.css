@@ -1,8 +1,9 @@
 a {
     text-decoration: none;
 }
-h1 {
-    font-size: 2.8rem;
+.int_heading {
+    font-family: serif !important;
+    font-size: 3.0rem;
 }
 .internal {
     width:45%;    
@@ -14,7 +15,8 @@ h1 {
     
 }
 .internal__btn {
-    font-size: 14px !important;
+    font-family: serif !important;
+    font-size: 15px !important;
     color: #f8f8f8 !important;
     background-color: #4a4a4a !important;
     width: 100%;

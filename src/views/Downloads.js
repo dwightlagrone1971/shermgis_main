@@ -17,7 +17,7 @@ const items = [
 
 function Downloads() {
   return (
-    <div className="home"> 
+    <div className="download"> 
       <h1>GIS Downloads</h1>
       
       <Grid container spacing={3}>
@@ -28,7 +28,7 @@ function Downloads() {
               rel="noreferrer"
               href={data.href}       
             >
-              <Button className="home__btn">{data.name}</Button>
+              <Button className="download__btn">{data.name}</Button>
             </a>
           </Grid>
           ))}

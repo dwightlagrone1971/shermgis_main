@@ -2,18 +2,26 @@
     text-decoration: none;
 }
 h1 {
+    font-family: serif !important;
+    font-size: 3.0rem !important;
+    color: #4a4a4a !important;
+    padding-bottom: 50px !important;
+}
+.down_heading {
+    font-family: serif !important;
     padding-bottom: 20px;
-    font-size: 2.8rem;
+    font-size: 3.0rem;
     color: #4a4a4a;
     padding-bottom: 30px;
 }
 .download {
     margin-top: 20px;
-    width:40%;    
+    width:55%;    
     justify-content: center;
 }
 .download__btn {
-    font-size: 14px !important;
+    font-family: serif !important;
+    font-size: 15px !important;
     color: #f8f8f8 !important;
     background-color: #4a4a4a !important;
     width: 100%;
