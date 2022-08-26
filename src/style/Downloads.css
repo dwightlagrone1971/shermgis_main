@@ -7,16 +7,9 @@ h1 {
     color: #4a4a4a !important;
     padding-bottom: 50px !important;
 }
-.down_heading {
-    font-family: serif !important;
-    padding-bottom: 20px;
-    font-size: 3.0rem;
-    color: #4a4a4a;
-    padding-bottom: 30px;
-}
 .download {
     margin-top: 20px;
-    width:55%;    
+    width:45%;    
     justify-content: center;
 }
 .download__btn {

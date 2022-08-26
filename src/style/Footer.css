@@ -12,10 +12,10 @@
     justify-content: center;
 }
 .footer__btn {
-    width: 200px;
+    width: 150px;
     margin-bottom: 20px !important;
     color: #4a4a4a !important;
     background-color: #f8f8f8 !important;
     text-decoration: none !important;
-    border-radius: 0 !important;
+    border-radius: 100px !important;
 }
