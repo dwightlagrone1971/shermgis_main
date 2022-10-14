@@ -12,7 +12,9 @@ const items = [
   { name: "Future Land Use", href: "https://data-cityofsherman.opendata.arcgis.com/datasets/cityofsherman::future-landuse-plan-1/about" },
   { name: "Parcels", href: "https://data-cityofsherman.opendata.arcgis.com/datasets/cityofsherman::parcels-1/about" },  
   { name: "Road Centerlines", href: "https://data-cityofsherman.opendata.arcgis.com/datasets/cityofsherman::road-centerlines-1/about" },
+  { name: "Thoroughfares", href: "https://data-cityofsherman.opendata.arcgis.com/datasets/cityofsherman::thoroughfare-plan/about" },
   { name: "Zoning Districts", href: "https://data-cityofsherman.opendata.arcgis.com/datasets/cityofsherman::zoning-districts/about" },
+
 ];
 
 function Downloads() {
