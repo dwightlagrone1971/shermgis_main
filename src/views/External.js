@@ -22,9 +22,9 @@ function External() {
     <div className="external"> 
       <h1 className="ext_heading">Public Web Maps</h1>
 
-        <Grid container spacing={6} rowSpacing={3}>
+        <Grid container spacing={6} rowSpacing={2}>
           {items.map((data, idx) => (
-            <Grid item xs={12} md={4}>
+            <Grid item xs="{12} md={8} lg={4}">
               <a 
                 target="_blank" 
                 href={data.href}       
