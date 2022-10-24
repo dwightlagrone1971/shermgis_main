@@ -3,15 +3,16 @@ a {
 }
 .ext_heading {
     font-family: serif !important;
-    margin-top: 40px;;
     font-size: 3.0rem;
 }
 .external {
-    width:50%;    
+    width:45%;    
     justify-content: center;
+    height: 400px;
 }
 .external__container {
     justify-content: center;
+    
 }
 .external__btn {
     font-family: serif !important;
