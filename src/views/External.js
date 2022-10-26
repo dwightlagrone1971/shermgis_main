@@ -20,7 +20,7 @@ const items = [
 function External() {
   return (
     <div className="external"> 
-      <h1 className="ext_heading">Internal Maps</h1>
+      <h1 className="ext_heading">Public Maps</h1>
 
         <Grid container spacing={6} rowSpacing={3}>
           {items.map((data, idx) => (
