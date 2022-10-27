@@ -18,9 +18,8 @@
 }
 .standout__btn {
     font-family: serif !important;
-    font-size: 16px !important;
     background-color: #5a99d4 !important;
-    color: #f8f8f8 !important;
+    color: #4a4a4a !important;
     border-radius: 0 !important;
     width: 200px !important;
 }
