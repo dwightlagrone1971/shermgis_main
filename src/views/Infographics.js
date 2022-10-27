@@ -23,7 +23,7 @@ function Infographics() {
         or data. The Infographics below use American Community
         Survey (ACS), Census, Esri forecasts, and third-party retail data.</span>   
 
-      <Grid container spacing={4} rowSpacing={3} className="graphics__container">
+      <Grid container spacing={6} rowSpacing={3} className="graphics__container">
         {items.map((data, idx) => (
           <Grid item xs={12} md={4}>
             <a 
