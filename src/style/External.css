@@ -4,6 +4,7 @@ a {
 .ext_heading {
     font-family: serif !important;
     font-size: 3.0rem;
+    margin-bottom: -3px;
 }
 .external {
     width:45%;    
