@@ -3,7 +3,7 @@ a {
 }
 .home {
     justify-content: center;
-    width: 100%;
+    width: 30%;
 }
 h1 {
     font-family: serif !important;
@@ -11,10 +11,6 @@ h1 {
     font-size: 3.0rem;
     color: #4a4a4a;
     padding-bottom: 50px !important;
-}
-.main_body {
-    text-align: center !important;
-    width: 60%;   
 }
 .home__btn {
     font-family: serif !important;
