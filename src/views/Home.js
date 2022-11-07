@@ -15,9 +15,9 @@ function Home() {
     <div className="home"> 
       <h1>Featured Maps</h1>
       
-      <Grid container spacing={6}>
+      <Grid className="main_body" container spacing={6}>
         {items.map((data, idx) => (
-          <Grid item xs={10} md={6}>
+          <Grid item xs={12} md={12}>
             <a 
               target="_blank"
               href={data.href}       

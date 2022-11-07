@@ -1,15 +1,20 @@
 a {
     text-decoration: none;
 }
+.home {
+    justify-content: center;
+    width: 100%;
+}
 h1 {
     font-family: serif !important;
+    text-align: center !important;
     font-size: 3.0rem;
     color: #4a4a4a;
     padding-bottom: 50px !important;
 }
-.home {
-    width: 32%;
-    justify-content: center;
+.main_body {
+    text-align: center !important;
+    width: 60%;   
 }
 .home__btn {
     font-family: serif !important;
@@ -17,8 +22,8 @@ h1 {
     font-size: 15px !important;
     color: #f8f8f8 !important;
     background-color: #4a4a4a !important;
-    width: 100%;
     border-radius: 0 !important;
+    width: 50%;
 }
 .more__maps {
     width: 100%;
