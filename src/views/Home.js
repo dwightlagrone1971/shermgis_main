@@ -25,18 +25,15 @@ function Home() {
               <Button className="home__btn">{data.name}</Button>
             </a>
           </Grid>
-          ))}
-
-          <Grid item xs={12} md={12}>
-            <div className="more__maps">
-              <Link 
-                to="/external"            
-              >
-                <Button className="more__btn" >More Maps</Button>
-              </Link>
-            </div>
-          </Grid>
+          ))}          
       </Grid>
+      <div className="more__maps">
+        <Link 
+          to="/external"            
+        >
+          <Button className="more__btn" >MoreMaps</Button>
+        </Link>
+      </div>
     </div>     
   ) 
 }
