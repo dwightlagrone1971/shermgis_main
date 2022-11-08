@@ -16,7 +16,7 @@ function About() {
   return (
     <div className="about"> 
       <h1>About Page</h1>
-        <Grid container spacing={6}>
+        <Grid container spacing={16}>
 
           {items.map((data, idx) => (
             <Grid item xs={12} md={4}>
