@@ -16,6 +16,7 @@ function Home() {
   return (
     <div className="home"> 
       <h1>Featured Maps</h1>
+      <h3>*Some of the GIS  maps are not working today.  There will be updates tonight and the maps should be working tomorrow.  Sorry for the inconvenience.</h3>
       
       <Grid className="main_body" container spacing={6}>
         {items.map((data, idx) => (
