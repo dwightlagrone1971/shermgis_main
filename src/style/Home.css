@@ -1,10 +1,10 @@
 .home {
     text-justify: center;
-    width: 50%;
+    width: 60%;
 }
 .main_body {
     padding-bottom: 50px;
-    width: 50%;
+    width: 100%;
 }
 .home__btn {
     font-family: serif !important;
