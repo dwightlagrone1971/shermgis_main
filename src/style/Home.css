@@ -14,11 +14,10 @@ h3 {
 }
 .home__btn {
     font-family: serif !important;
-    font-size: 15px !important;
     color: #f8f8f8 !important;
     background-color: #4a4a4a !important;
-    width: 250px;
     border-radius: 0 !important;
+    width: 14rem;
 }
 .more__btn {
     font-family: serif !important;
