@@ -6,14 +6,14 @@ import Grid from '@mui/material/Grid';
 
 const items = [
   { name: "At Risk Population", href: "https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/e0c48bed80c34c78bbb240d02d36f072/data" },
-  { name: "Community Profile", href: "https://experience.arcgis.com/experience/ab26267db2d348c98718a01213a414b0/?draft=true" },
-  { name: "Coronavirus Planning", href: "https://experience.arcgis.com/experience/449926e4cf1f4df8b42995a1a5ea3e51/" },
-  { name: "Demographic Summary", href: "https://experience.arcgis.com/experience/875fc49140eb457caadda7306d7105ec/e" },
-  { name: "Employment Overview", href: "https://experience.arcgis.com/experience/585123d5273844c7a2a961d492a8f6b0/" },
-  { name: "Healthcare & Insurance", href: "https://experience.arcgis.com/experience/dff2ef170bdb4b3aa4444438036631b8/" },
-  { name: "Key Facts", href: "https://experience.arcgis.com/experience/90fe3dd8d86c4045a9cac14c85e53524/" },
-  { name: "Population Trends", href: "https://experience.arcgis.com/experience/0db2b23b4f374ff7994175333130743d/e" },
-  { name: "Tapestry Profile", href: "https://experience.arcgis.com/experience/fe9979cd4e594836ac8c4debd19a8733/e" },
+  { name: "Community Profile", href: "https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/a8de093170a54f3f86aae4b773e22656/data" },
+  { name: "Coronavirus Planning", href: "https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/5d30386b703f4c2b8b312b26ff1edb4f/data" },
+  { name: "Demographic Summary", href: "https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/7bcb90c26f6646e0bc582972c7ced355/data" },
+  { name: "Employment Overview", href: "https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/03a3ef5669a8432c9e6b9d5250c1e072/data" },
+  { name: "Healthcare & Insurance", href: "https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/89eba46f3e6d4e9bb6f82239029b8b4e/data" },
+  { name: "Key Facts", href: "https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/53c27765695d458aa3f316053e730391/data" },
+  { name: "Population Trends", href: "https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/4bc7fe0d4bf24dbe80a7aca1b5b77eb4/data" },
+  { name: "Tapestry Profile", href: "https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/d408af53cef744f8b492fc0516df7a36/data" },
 ];
 
 function Infographics() {
