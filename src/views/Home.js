@@ -16,6 +16,7 @@ function Home() {
   return (
     <div className="home"> 
       <h1>Featured Maps</h1>
+      <h3>*Some of the web maps layers are not drawing correctly.  We are currently working on upgrading the sites.  Sorry for the inconvenience.</h3>
        
       <Grid className="main_body" container spacing={6}>
         {items.map((data, idx) => (
