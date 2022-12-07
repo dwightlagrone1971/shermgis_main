@@ -9,7 +9,6 @@ const items = [
   { name: "Residential Dashboard", href: "https://cityofsherman.maps.arcgis.com/apps/instant/lookup/index.html?appid=efd3c1d6d3144c9eb11326ec20c79626" },
   { name: "Future Landuse (2022)", href: "https://cityofsherman.maps.arcgis.com/apps/instant/sidebar/index.html?appid=dbedffd8809640808078dea3f7db0f4c" },
   { name: "Thoroughfares (2022)", href: "https://cityofsherman.maps.arcgis.com/apps/instant/interactivelegend/index.html?appid=5dbc6809eaa746e5909b8e82fe24d602" },
-  { name: "Address Request", href: "https://survey123.arcgis.com/share/9933e2aecb8e4e97b4107523b70b9e03?portalUrl=https://cityofsherman.maps.arcgis.com" },
 ];
 
 function Home() {
