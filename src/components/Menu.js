@@ -16,60 +16,19 @@ const items = [
 
 function Menu() {
   return (
-    <div className="menu">
-      <nav className="menu__container">
-        <Grid container spacing={6} rowSpacing={3}>
-          <Grid item xs={12} md={2}>
+    <div class="bg-neutral-700 text-neutral-700 py-4"> 
+      <Grid class="lg:w-9/12 md:auto md:grid md:grid-cols-3 lg:m-auto lg:grid lg:grid-cols-6 gap-4">
+        {items.map((items, idx) => (
+          <Grid>
             <Link 
-              to="/"
-              style={{ textDecoration: 'none' }}      
+              to={items.to}       
             >
-              <Button className="menu__btn">Featured Maps</Button>
+              <Button class="bg-neutral-200 w-48 py-2 my-2">{items.name}</Button>
             </Link>
           </Grid>
-          <Grid item xs={12} md={2}>
-            <Link 
-              to="/downloads"
-              style={{ textDecoration: 'none' }}      
-            >
-              <Button className="menu__btn">GIS Downloads</Button>
-            </Link>
-          </Grid>
-          <Grid item xs={12} md={2}>
-            <Link 
-              to="/graphics"
-              style={{ textDecoration: 'none' }}      
-            >
-              <Button className="standout__btn">Infographics</Button>
-            </Link>
-          </Grid>
-          <Grid item xs={12} md={2}>
-            <Link 
-              to="/internal"
-              style={{ textDecoration: 'none' }}      
-            >
-              <Button className="menu__btn">Internal Maps</Button>
-            </Link>
-          </Grid>
-          <Grid item xs={12} md={2}>
-            <Link 
-              to="/maps"
-              style={{ textDecoration: 'none' }}      
-            >
-              <Button className="menu__btn">PDF Maps</Button>
-            </Link>
-          </Grid>
-          <Grid item xs={12} md={2}>
-            <Link 
-              to="/about"
-              style={{ textDecoration: 'none' }}      
-            >
-              <Button className="menu__btn">About</Button>
-            </Link>
-          </Grid>
-        </Grid>        
-      </nav>
-    </div>
+          ))}          
+      </Grid>
+    </div>     
   ) 
 }
 

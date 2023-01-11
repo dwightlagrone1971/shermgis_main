@@ -3,10 +3,10 @@ import styled from "styled-components";
 import '../style/Header.css'
 
 const Hero = styled.div`
-  width: 100%;
-  height: 300px;
-  background-image: url(${props => props.desktop}); no-repeat;
-  background-size: cover;
+    width: 100%;
+    height: 300px;
+    background-image: url(${props => props.desktop}); no-repeat;
+    background-size: cover;
   @media screen and (max-width: 100%) {
     width: 100%;
     height: 300px;

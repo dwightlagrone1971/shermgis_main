@@ -18,7 +18,7 @@ function Home() {
        
       <Grid className="main_body" container spacing={6}>
         {items.map((data, idx) => (
-          <Grid item xs={12} s={6} md={3}>
+          <Grid item xs={12} s={6} md={3} lg={3}>
             <a 
               target="_blank"
               href={data.href}       
