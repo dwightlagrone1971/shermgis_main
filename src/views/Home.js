@@ -23,7 +23,7 @@ function Home() {
               target="_blank"
               href={data.href}       
             >
-              <Button className="home__btn">{data.name}</Button>
+              <Button class="bg-neutral-700 text-neutral-200 py-2 my-2 w-48 md:w-42 lg:w-48">{data.name}</Button>
             </a>
           </Grid>
           ))}          
@@ -32,7 +32,7 @@ function Home() {
         <Link 
           to="/external"            
         >
-          <Button className="more__btn" >More Maps</Button>
+          <Button class="bg-neutral-700 text-neutral-200 md:w-36 w-48 py-2 my-2" >More Maps</Button>
         </Link>
       </div>
     </div>     

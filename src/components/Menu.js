@@ -17,13 +17,13 @@ const items = [
 function Menu() {
   return (
     <div class="bg-neutral-700 text-neutral-700 py-4"> 
-      <Grid class="lg:w-9/12 md:auto md:grid md:grid-cols-3 lg:m-auto lg:grid lg:grid-cols-6 gap-4">
+      <Grid class="lg:w-9/12 auto lg:m-auto lg:grid lg:grid-cols-6 gap-4">
         {items.map((items, idx) => (
           <Grid>
             <Link 
               to={items.to}       
             >
-              <Button class="bg-neutral-200 w-48 py-2 my-2">{items.name}</Button>
+              <Button class="bg-neutral-200 md:w-36 w-48 py-2 my-2">{items.name}</Button>
             </Link>
           </Grid>
           ))}          

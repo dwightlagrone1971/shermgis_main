@@ -27,7 +27,7 @@ function Internal() {
                 target="_blank" 
                 href={data.href}       
               >
-                <Button className="internal__btn">{data.name}</Button>
+                <Button class="bg-neutral-700 text-neutral-200 py-2 px-4 w-60 md:w-36 md:h-24 lg:w-60 lg:h-10">{data.name}</Button>
               </a>
             </Grid>
             ))}
