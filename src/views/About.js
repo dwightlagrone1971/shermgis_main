@@ -14,23 +14,22 @@ const items = [
 
 function About() {
   return (
-    <div className="about"> 
-      <h1>About Page</h1>
-        <Grid container spacing={16}>
+    <>
+      <div>
+        <h2 className="font-serif text-4xl mt-10 mb-10 lg:mt-20 lg:mb-4 lg:text-5xl">About Page</h2>
 
-          {items.map((data, idx) => (
-            <Grid item xs={12} md={4}>
-              <Link
-                to={ data.to }                       
+        <Grid class="lg:w-9/12 auto lg:pt-16 lg:m-auto grid lg:grid-cols-3 lg:w-6/12 lg:gap-2 lg:text-center">
+          {items.map((items, idx) => (
+              <Link 
+                to={items.to}       
               >
-                <Button class="bg-neutral-700 text-neutral-200 py-2 px-4 w-48 md:w-36 md:h-24 lg:w-60 lg:h-10">{ data.name }</Button>
+                <Button class="font-serif bg-neutral-700 text-neutral-200 mb-6 w-44 py-2">{items.name}</Button>
               </Link>
-            </Grid>
-            ))}
-
+            ))}          
         </Grid>
-    </div>     
-  ) 
+      </div>
+    </>
+  )
 }
 
 export default About

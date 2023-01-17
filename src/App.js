@@ -2,6 +2,7 @@ import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header.js';
 import Menu from './components/Menu.js';
+import Routes1 from './components/Routes1.js';
 import Footer from './components/Footer.js';
 import Home from './views/Home.js';
 import External from './views/External.js';
@@ -17,25 +18,10 @@ import WhatIsGPS from './views/WhatIsGPS.js';
 function App() {
   return (
     <Router>
-    <div className="App">
+    <div className="App lg:flex lg:flex-col lg:h-screen lg:justify-between">
       <Header />
       <Menu />
-      <div className="route__menu">
-        <Routes>
-          <Route>
-            <Route path='/' element={ <Home /> }></Route>
-            <Route path='/external' element={ <External />}></Route>
-            <Route path='/downloads' element={ <Downloads /> }></Route>
-            <Route path='/contacts' element={ <Contacts /> }></Route>
-            <Route path='/graphics' element={ <Infographics /> }></Route>
-            <Route path='/internal' element={ <Internal /> }></Route>
-            <Route path='/maps' element={ <PDFMaps /> }></Route>
-            <Route path='/about' element={ <About /> }></Route>
-            <Route path='/gis' element={ <WhatIsGIS /> }></Route>
-            <Route path='/gps' element={ <WhatIsGPS /> }></Route>       
-          </Route>
-        </Routes>
-      </div>
+      <Routes1 />
       <Footer />
     </div>
     

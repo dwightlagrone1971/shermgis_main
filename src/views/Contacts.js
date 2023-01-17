@@ -12,9 +12,9 @@ const contacts = [
 
 function Contacts() {
   return (
-    <div className="contacts ">
-      <h1>Contacts Page</h1>
-      <Grid container spacing={16} className="contacts__container">
+    <div class="font-serif lg:w-5/12 lg:m-auto">      
+      <h2 class="font-serif text-4xl mt-10 mb-10 lg:mb-10 lg:mt-14 lg:mb-2 lg:text-5xl">Contacts Page</h2>
+      <Grid container spacing={16} class="grid grid-cols-2 place-items-center" >
         {contacts.map(contact => (
           <Grid item key={contact.id} xs="{12} md={8} lg={4}" >
             <NoteCard contact={contact} />

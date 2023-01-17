@@ -13,30 +13,29 @@ const items = [
 
 function Home() {
   return (
-    <div className="home"> 
-      <h1>Featured Maps</h1>
-       
-      <Grid className="main_body" container spacing={6}>
-        {items.map((data, idx) => (
-          <Grid item xs={12} s={6} md={3} lg={3}>
-            <a 
-              target="_blank"
-              href={data.href}       
-            >
-              <Button class="bg-neutral-700 text-neutral-200 py-2 my-2 w-48 md:w-42 lg:w-48">{data.name}</Button>
-            </a>
-          </Grid>
-          ))}          
-      </Grid>
-      <div className="more__maps">
-        <Link 
-          to="/external"            
-        >
-          <Button class="bg-neutral-700 text-neutral-200 md:w-36 w-48 py-2 my-2" >More Maps</Button>
-        </Link>
-      </div>
-    </div>     
-  ) 
-}
+    <>
+      <div>
+        <h2 class="font-serif text-4xl mt-10 mb-10 lg:mt-10 lg:mb-4 lg:text-5xl">Featured Maps</h2>
 
+        <Grid class="lg:w-9/12 auto lg:pt-16 lg:m-auto grid lg:grid-cols-4 lg:gap-2 lg:w-7/12 lg:text-center">
+          {items.map((items, idx) => (
+              <a 
+                target="_blank"
+                href={items.href}       
+              >
+                <Button class="font-serif bg-neutral-700 text-neutral-200 mb-6 w-48 py-1 ">{items.name}</Button>
+              </a>
+            ))}          
+        </Grid>
+        <div className="">
+            <Link 
+              to="/external"            
+            >
+              <Button class="bg-neutral-700 text-neutral-200 mb-10 w-48 py-1 mt-12" >More Maps</Button>
+            </Link>
+          </div>
+      </div>       
+    </>
+  )
+} 
 export default Home

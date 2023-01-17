@@ -17,23 +17,23 @@ const items = [
 
 function Internal() {
   return (
-    <div className="internal"> 
-      <h1 className="int_heading">Internal Maps</h1>
+    <>
+      <div class="">
+        <h2 className="font-serif text-4xl mt-10 mb-10 lg:mt-14 lg:mb-2 lg:text-5xl">Internal Maps</h2>
 
-        <Grid container spacing={6} rowSpacing={3}>
-          {items.map((data, idx) => (
-            <Grid item xs={12} md={4}>
+        <Grid class="lg:w-9/12 auto lg:pt-16 lg:m-auto grid lg:grid-cols-3 lg:w-6/12 lg:gap-2 lg:text-center">
+          {items.map((items, idx) => (
               <a 
-                target="_blank" 
-                href={data.href}       
+                href={items.href}
+                target="_blank"       
               >
-                <Button class="bg-neutral-700 text-neutral-200 py-2 px-4 w-60 md:w-36 md:h-24 lg:w-60 lg:h-10">{data.name}</Button>
+                <Button class="font-serif bg-neutral-700 text-neutral-200 mb-6 w-44 py-1 ">{items.name}</Button>
               </a>
-            </Grid>
-            ))}
+            ))}          
         </Grid>
-    </div>     
-  ) 
+      </div>
+    </>
+  )
 }
 
 export default Internal

@@ -19,24 +19,23 @@ const items = [
 
 function Downloads() {
   return (
-    <div className="download"> 
-      <h1>GIS Downloads</h1>
-      
-      <Grid container spacing={3}>
-        {items.map((data, idx) => (
-          <Grid item xs={12} md={4}>
-            <a 
-              target="_blank" 
-              rel="noreferrer"
-              href={data.href}       
-            >
-              <Button class="bg-neutral-700 text-neutral-200 py-2 px-4 w-60 md:w-36 md:h-24 lg:w-60 lg:h-10">{data.name}</Button>
-            </a>
-          </Grid>
-          ))}
-      </Grid>
-    </div>     
-  ) 
+    <>
+      <div class="">
+        <h2 className="font-serif text-4xl mt-10 mb-10 lg:mt-10 lg:mb-4 lg:text-5xl">GIS Downloads</h2>
+
+        <Grid class="lg:w-9/12 auto lg:pt-16 lg:m-auto grid lg:grid-cols-3 lg:w-6/12 lg:gap-2 lg:text-center">
+          {items.map((items, idx) => (
+              <a 
+                target="_blank"
+                href={items.href}       
+              >
+                <Button class="font-serif bg-neutral-700 text-neutral-200 mb-6 w-44 py-1 ">{items.name}</Button>
+              </a>
+            ))}          
+        </Grid>
+      </div>
+    </>
+  )
 }
 
 export default Downloads

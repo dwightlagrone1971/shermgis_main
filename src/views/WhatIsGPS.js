@@ -4,9 +4,9 @@ import '../style/WhatIsGPS.css'
 
 function WhatIsGIS() {
     return (
-        <div className="gps">      
-            <h1>What is GPS?</h1>
-            <div className="gis__container">                  
+        <div class="lg:w-7/12 lg:m-auto">      
+            <h2 class="font-serif text-4xl mt-10 mb-10 lg:mb-10 lg:mt-14 lg:mb-2 lg:text-5xl">What is GIPS?</h2>
+            <div >                  
                 <div >
                     <img 
                         src="https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/94a104d6f95c42c98d30e60c12f1d7b1/data" 

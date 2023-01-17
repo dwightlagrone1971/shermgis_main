@@ -18,25 +18,22 @@ const items = [
 
 function Infographics() {
   return (
-    <div className="graphics"> 
-      <span class="graphics_desc"><strong className="large">Infographics</strong> are a visual representation of information
-        or data. The Infographics below use American Community
-        Survey (ACS), Census, Esri forecasts, and third-party retail data.</span>   
+    <div class="lg:mt-12 lg:w-12/12 text-center">
+      <span><h2 className="font-serif text-4xl mt-10 mb-10 lg:mt-14 lg:mb-2 lg:text-5xl"><strong>Infographics</strong></h2>
+      <p class="lg:text-lg lg:mx-24 text-center"> Infographics are a visual representation of information or data. The Infographics below use American Community
+      Survey (ACS), Census, Esri forecasts, and third-party retail data.</p></span>
 
-      <Grid container spacing={6} rowSpacing={3} className="graphics__container">
-        {items.map((data, idx) => (
-          <Grid item xs={12} md={4}>
-            <a 
-              target="_blank" 
-              rel="noreferrer"
-              href={data.href}             
-            >
-              <Button class="bg-neutral-700 text-neutral-200 py-2 px-4 w-60 md:w-36 md:h-24 lg:w-60 lg:h-10">{data.name}</Button>
-            </a> 
-          </Grid>
-        ))}
-      </Grid>      
-    </div>     
+      <Grid class="lg:w-9/12 auto lg:pt-16 lg:m-auto grid lg:grid-cols-3 lg:w-6/12 lg:gap-2 lg:text-center">
+        {items.map((items, idx) => (
+          <a 
+            target="_blank"
+            href={items.href}       
+          >
+            <Button class="font-serif bg-neutral-700 text-neutral-200 mb-6 w-44 py-1 ">{items.name}</Button>
+          </a>
+        ))}          
+      </Grid>
+    </div>
   ) 
 }
 

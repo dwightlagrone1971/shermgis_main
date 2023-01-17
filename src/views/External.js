@@ -19,20 +19,18 @@ const items = [
 
 function External() {
   return (
-    <div className="external"> 
-      <h1 className="ext_heading">Public Maps</h1>
+    <div> 
+      <h1 class="font-serif text-4xl mt-10 about__containerlg:mt-10 lg:mb-4 lg:text-5xl">Public Maps</h1>
 
-        <Grid container spacing={6} rowSpacing={3}>
-          {items.map((data, idx) => (
-            <Grid item xs={12} md={4}>
+      <Grid class="lg:w-9/12 auto lg:m-auto grid lg:grid-cols-4 lg:gap-2 lg:w-7/12 lg:text-center">
+          {items.map((items, idx) => (
               <a 
-                target="_blank" 
-                href={data.href}       
+                target="_blank"
+                href={items.href}       
               >
-                <Button className="external__btn">{data.name}</Button>
+                <Button class="font-serif bg-neutral-700 text-neutral-200 mb-6 w-44 py-1 ">{items.name}</Button>
               </a>
-            </Grid>
-            ))}
+            ))}          
         </Grid>
     </div>     
   ) 

@@ -1,28 +1,8 @@
 .menu {
-    width: 100%; 
-    height: 100%;  
-    display: flex;
-    justify-content: center;
     background-color: #4a4a4a;
 }
-.menu__container {
-    justify-content: center;
-    padding: 20px 0px 20px 0px;    
+.menu__button {
+    color: #4a4a4a;
+    background-color: #f8f8f8;
 }
-.menu__btn {
-    font-family: serif !important;
-    background-color: #f8f8f8 !important;
-    color: #4a4a4a !important;
-    border-radius: 0 !important;
-    width: 200px !important;    
-}
-.standout__btn {
-    font-family: serif !important;
-    background-color: #5a99d4 !important;
-    color: #4a4a4a !important;
-    border-radius: 0 !important;
-    width: 200px !important;
-}
-
-
 

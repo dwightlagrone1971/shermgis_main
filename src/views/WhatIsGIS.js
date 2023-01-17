@@ -4,9 +4,9 @@ import '../style/WhatIsGIS.css'
 
 function WhatIsGIS() {
     return (
-        <div className="gis">      
-            <h1>What is GIS?</h1>
-            <div className="gis__container">                  
+        <div class="sm:p-10 lg:w-7/12 lg:m-auto">      
+            <h2 class="font-serif text-4xl mt-10 mb-10 lg:mb-10 lg:mt-14 lg:mb-2 lg:text-5xl">What is GIS?</h2>
+            <div class="">                  
                 <div >
                     <img 
                         src="https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/1c1777c03d434fc887bcf7e9fbc5dba1/data" 

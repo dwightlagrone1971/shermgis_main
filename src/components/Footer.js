@@ -13,21 +13,17 @@ const items = [
 
 function Footer() {
   return (
-    <div className="footer"> 
-        <Grid container spacing={2} className="footer__container">
-          {items.map((item, idx) => (
-            <Grid item xs={12} md={2} className="footer__grid">
-              <a 
-                target="_blank" 
-                rel="noreferrer"
-                href={item.href}
-                style={{ textDecoration: 'none' }}        
-              >
-                <Button className="footer__btn">{item.name}</Button>
-              </a>
-            </Grid>
-            ))}
-        </Grid>
+    <div class="bg-neutral-700 py-4 pt-12 pb-12 lg:py-4"> 
+      <Grid class="lg:w-9/12 auto lg:m-auto grid lg:grid-cols-6 gap-4">
+        {items.map((items, idx) => (
+            <a
+              target="_blank"
+              href={items.href}       
+            >
+              <Button class="font-serif hover:bg-neutral-200 hover:text-neutral-700 text-neutral-200 py-1 px-4 rounded-full">{items.name}</Button>
+            </a>
+          ))}          
+      </Grid>
     </div>     
   ) 
 }

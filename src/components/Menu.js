@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { Button } from '@material-ui/core';
 import Grid from '@mui/material/Grid';
 
+
 const items = [
     { name: "Featured Maps", to: "/" },
     { name: "GIS Downloads", to: "/downloads" },
@@ -16,16 +17,14 @@ const items = [
 
 function Menu() {
   return (
-    <div class="bg-neutral-700 text-neutral-700 py-4"> 
-      <Grid class="lg:w-9/12 auto lg:m-auto lg:grid lg:grid-cols-6 gap-4">
+    <div class="bg-neutral-700 py-4 relative pt-12 pb-12 lg:py-6"> 
+      <Grid class="md:8/12 lg:w-7/12 auto lg:m-auto grid lg:grid-cols-6 gap-8">
         {items.map((items, idx) => (
-          <Grid>
             <Link 
               to={items.to}       
             >
-              <Button class="bg-neutral-200 md:w-36 w-48 py-2 my-2">{items.name}</Button>
+              <Button class="font-serif bg-neutral-200 text-neutral-700 w-32 py-1">{items.name}</Button>
             </Link>
-          </Grid>
           ))}          
       </Grid>
     </div>     
