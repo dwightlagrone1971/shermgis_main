@@ -23,7 +23,7 @@ function Menu() {
             <Link 
               to={items.to}       
             >
-              <Button class="font-serif bg-neutral-200 text-neutral-700 w-32 py-1">{items.name}</Button>
+              <Button class="font-serif bg-neutral-200 text-neutral-700 w-32 py-1 px-2">{items.name}</Button>
             </Link>
           ))}          
       </Grid>
