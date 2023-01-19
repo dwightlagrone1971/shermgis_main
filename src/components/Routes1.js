@@ -32,8 +32,8 @@ const Hero = styled.div`
 function Routes1() {
   return (
     <>
-        <div class="relative">
-            <div class="relative">
+        <div className="relative">
+            <div className="relative">
                 <Hero
                     desktop="https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/5b951cedd3b3404e89b120e839894be7/data"
                     tablet="https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/5b951cedd3b3404e89b120e839894be7/data"
@@ -41,8 +41,8 @@ function Routes1() {
                 />
             </div>
             <div class="absolute top-0 w-screen h-full">
-                <Routes >
-                    <Route class="border-2 border-orange-500">
+                <Routes>
+                    <Route className="border-2 border-orange-500">
                         <Route path='/' element={ <Home /> }></Route>
                         <Route path='/external' element={ <External />}></Route>
                         <Route path='/downloads' element={ <Downloads /> }></Route>

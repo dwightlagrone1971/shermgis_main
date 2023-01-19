@@ -16,7 +16,7 @@ function About() {
   return (
     <>
       <div>
-        <h2 className="font-serif text-4xl mt-10 mb-10 lg:mt-20 lg:mb-4 lg:text-5xl">About Page</h2>
+        <h2 class="font-serif text-4xl mt-10 mb-10 lg:mt-20 lg:mb-4 lg:text-5xl">About Page</h2>
 
         <Grid class="lg:w-9/12 auto lg:pt-16 lg:m-auto grid lg:grid-cols-3 lg:w-6/12 lg:gap-2 lg:text-center">
           {items.map((items, idx) => (
