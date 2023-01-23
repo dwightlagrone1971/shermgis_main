@@ -8,7 +8,7 @@ import Typography from '@mui/material/Typography';
 function NoteCard({ contact }) {
   return (
     <div class="flex text-center p-12">
-        <Card elevation={10} >
+        <Card elevation={10} class="shadow-2xl bg-white hover:bg-neutral-100">
             <CardHeader
                 title={ contact.name }
                 subheader={ contact.title }       
