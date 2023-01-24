@@ -24,7 +24,7 @@ function PDFMaps() {
       <div class="">
         <h2 className="font-serif text-4xl mt-10 mb-10 lg:mt-14 lg:mb-2 lg:text-5xl">PDF Maps</h2>
 
-        <Grid class="lg:w-9/12 auto lg:pt-16 lg:m-auto grid lg:grid-cols-3 lg:w-6/12 lg:gap-2 lg:text-center">
+        <Grid class="lg:w-7/12 auto lg:pt-16 lg:m-auto grid lg:grid-cols-4 lg:w-6/12 lg:gap-2 lg:text-center">
           {items.map((items, idx) => (
               <a 
                 target="_blank"
