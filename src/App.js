@@ -18,12 +18,12 @@ import WhatIsGPS from './views/WhatIsGPS.js';
 function App() {
   return (
     <Router>
-    <div className="App lg:flex lg:flex-col lg:h-screen lg:justify-between">
-      <Header />
-      <Menu />
-      <Routes1 />
-      <Footer />
-    </div>
+      <div className="App">
+        <Header />
+        <Menu />
+        <Routes1 />
+        <Footer />
+      </div>
     
     </Router>
   );

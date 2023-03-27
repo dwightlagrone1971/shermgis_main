@@ -17,8 +17,8 @@ const items = [
 
 function Menu() {
   return (
-    <div class="bg-neutral-700 py-4 relative pt-12 pb-12 lg:py-6"> 
-      <Grid class="md:8/12 lg:w-7/12 auto lg:m-auto grid lg:grid-cols-6 gap-8">
+    <div class="pt-8 pb-8 bg-neutral-700 md:py-4 lg:py-6"> 
+      <Grid class="auto grid gap-8 md:8/12 md:m-auto md:grid-col-6 lg:w-7/12 lg:m-auto lg:grid-cols-6 ">
         {items.map((items, idx) => (
             <Link 
               to={items.to}       

@@ -14,17 +14,17 @@ import WhatIsGPS from '../views/WhatIsGPS.js';
 
 const Hero = styled.div`
     width: 100%;
-    height: 500px;
+    height: 100vh;
     background-image: url(${props => props.desktop}); no-repeat;
     background-size: cover;
   @media screen and (max-width: 100%) {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-image: url(${props => props.table}); no-repeat;
   }
   @media screen and (max-width: 100%) {
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-image: url(${props => props.mobile}); no-repeat;
   }
 `;
@@ -40,9 +40,9 @@ function Routes1() {
                     mobile="https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/5b951cedd3b3404e89b120e839894be7/data"
                 />
             </div>
-            <div class="absolute top-0 w-screen h-full">
+            <div class="absolute top-0 w-screen h-screen">
                 <Routes>
-                    <Route className="border-2 border-orange-500">
+                    <Route>
                         <Route path='/' element={ <Home /> }></Route>
                         <Route path='/external' element={ <External />}></Route>
                         <Route path='/downloads' element={ <Downloads /> }></Route>

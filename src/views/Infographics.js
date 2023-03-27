@@ -18,12 +18,12 @@ const items = [
 
 function Infographics() {
   return (
-    <div class="lg:mt-12 lg:w-12/12 text-center">
-      <span><h2 className="font-serif text-4xl mt-10 mb-10 lg:mt-14 lg:mb-2 lg:text-5xl"><strong>Infographics</strong></h2>
+    <div class="h-screen lg:mt-12 lg:w-12/12 text-center">
+      <span><h2 class="pb-4 font-serif text-4xl mt-10 mb-18 lg:mt-14 lg:mb-2 lg:text-5xl"><strong>Infographics</strong></h2>
       <p class="lg:text-lg lg:mx-24 text-center"> Infographics are a visual representation of information or data. The Infographics below use American Community
       Survey (ACS), Census, Esri forecasts, and third-party retail data.</p></span>
 
-      <Grid class="lg:w-9/12 auto lg:pt-16 lg:m-auto grid lg:grid-cols-3 lg:w-6/12 lg:gap-2 lg:text-center">
+      <Grid class="pt-8 pb-8 lg:w-9/12 auto lg:pt-16 lg:m-auto grid lg:grid-cols-3 lg:w-6/12 lg:gap-2 lg:text-center">
         {items.map((items, idx) => (
           <a 
             target="_blank"

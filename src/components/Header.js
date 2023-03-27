@@ -22,7 +22,7 @@ const Hero = styled.div`
 function Header() {
   return (
     <>
-      <div class="bg-neutral-700">
+      <div class="bg-neutral-700 relative fixed inset-x-0 top-0">
         <Hero
             desktop="https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/8c29f25290cd448a88f36ac6fd53a20e/data"
             tablet="https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/49073d084b6c46e18df8442d5112731f/data"
