@@ -21,18 +21,20 @@ function Downloads() {
   return (
     <>
       <div class="">
-        <h2 class="font-serif text-4xl mt-10 mb-10 lg:mt-10 lg:mb-4 lg:text-5xl">GIS Downloads</h2>
+        <h2 class="font-serif text-4xl mt-10 pb-8 lg:mt-10 lg:mb-4 lg:text-5xl">GIS Downloads</h2>
 
-        <Grid class="lg:w-9/12 auto lg:pt-16 lg:m-auto grid lg:grid-cols-3 lg:w-6/12 lg:gap-2 lg:text-center">
-          {items.map((items, idx) => (
-              <a 
-                target="_blank"
-                href={items.href}       
-              >
-                <Button class="font-serif bg-neutral-700 hover:bg-neutral-500 text-neutral-200 mb-6 w-44 py-1 ">{items.name}</Button>
-              </a>
-            ))}          
-        </Grid>
+        <grid class="m-auto mt-4 content-start text-center lg:w-6/12 grid lg:grid-cols-3 lg:gap-6 content-evenly">
+          <div class="m-auto mb-2 mt-2 w-52 p-2 font-serif bg-neutral-700 hover:bg-neutral-500 text-neutral-200">Addresses</div>
+          <div class="m-auto mb-2 mt-2 w-52 p-2 font-serif bg-neutral-700 hover:bg-neutral-500 text-neutral-200">Building Footprints</div>
+          <div class="m-auto mb-2 mt-2 w-52 p-2 font-serif bg-neutral-700 hover:bg-neutral-500 text-neutral-200">City Limits</div>
+          <div class="m-auto mb-2 mt-2 w-52 p-2 font-serif bg-neutral-700 hover:bg-neutral-500 text-neutral-200">Council District</div>
+          <div class="m-auto mb-2 mt-2 w-52 p-2 font-serif bg-neutral-700 hover:bg-neutral-500 text-neutral-200">E.T.J.</div>
+          <div class="m-auto mb-2 mt-2 w-52 p-2 font-serif bg-neutral-700 hover:bg-neutral-500 text-neutral-200">Parcels</div>
+          <div class="m-auto mb-2 mt-2 w-52 p-2 font-serif bg-neutral-700 hover:bg-neutral-500 text-neutral-200">Road Centerlines</div>
+          <div class="m-auto mb-2 mt-2 w-52 p-2 font-serif bg-neutral-700 hover:bg-neutral-500 text-neutral-200">Thoroughfares</div>
+          <div class="m-auto mb-2 mt-2 w-52 p-2 font-serif bg-neutral-700 hover:bg-neutral-500 text-neutral-200">Zoning Districts</div>
+        </grid>
+
       </div>
     </>
   )

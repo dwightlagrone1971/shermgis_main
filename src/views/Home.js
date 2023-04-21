@@ -17,13 +17,13 @@ function Home() {
       <div>
         <h2 class="font-serif text-4xl mt-10 mb-10 lg:mt-10 lg:mb-4 lg:text-5xl">Featured Maps</h2>
 
-        <Grid class="lg:w-9/12 auto lg:pt-16 lg:m-auto grid lg:grid-cols-4 lg:gap-2 lg:w-7/12 lg:text-center">
+        <Grid class="auto grid lg:m-auto lg:pt-16 lg:grid-cols-4 lg:gap-2 lg:w-7/12 lg:text-center">
           {items.map((items, idx) => (
               <a 
                 target="_blank"
                 href={items.href}       
               >
-                <Button class="font-serif bg-neutral-700 text-neutral-200 hover:bg-neutral-500 mb-6 w-48 py-1 ">{items.name}</Button>
+                <Button class="font-serif bg-neutral-700 text-neutral-200 hover:bg-neutral-500 mb-6 w-52 py-1 ">{items.name}</Button>
               </a>
             ))}          
         </Grid>
