@@ -27,7 +27,7 @@ function External() {
                 target="_blank"
                 href={items.href}       
               >
-                <Button class="font-serif bg-neutral-700 hover:bg-neutral-500 text-neutral-200 mb-6 w-52 py-1 md:w-44">{items.name}</Button>
+                <Button class="font-serif bg-neutral-700 hover:bg-neutral-500 text-neutral-200 mb-6 w-52 py-1 md:w-52">{items.name}</Button>
               </a>
             ))}          
         </Grid>
