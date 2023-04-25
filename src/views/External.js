@@ -8,7 +8,7 @@ const items = [
   { name: "Council District", href: "https://cityofsherman.maps.arcgis.com/apps/instant/sidebar/index.html?appid=7992b6f7bd864093a6fbba7ed2cfb1fb" },
   { name: "Emergency Sirens", href: "https://cityofsherman.maps.arcgis.com/apps/instant/sidebar/index.html?appid=d54707ac56ee4971ab757339883af01a" },
   { name: "Flood Zones (2023)", href: "https://cityofsherman.maps.arcgis.com/apps/instant/sidebar/index.html?appid=a8237551de654fa1ab568ad83c685253" },
-  { name: "Parks & Recreation", href: "https://cityofsherman.maps.arcgis.com/apps/instant/interactivelegend/index.html?appid=e9a6c773dbf34883924e1b7ae3427fdb" },
+  { name: "Parks & Recreation", href: "https://cityofsherman.maps.arcgis.com/apps/instant/sidebar/index.html?appid=f60017513bbf45f4b2197074a2e6c2c7&locale=en" },
   { name: "Sex Offender Restricted", href: "https://cityofsherman.maps.arcgis.com/apps/instant/sidebar/index.html?appid=446adf191c764b3e83a116072a77979d" },
   { name: "Sherman Schools", href: "https://cityofsherman.maps.arcgis.com/apps/instant/sidebar/index.html?appid=a51f81f031d94df884004a01d5da5932" },
   { name: "Trash Pickup Days", href: "https://cityofsherman.maps.arcgis.com/apps/instant/lookup/index.html?appid=000839d23a014bd791bb19d4667f177c" },
