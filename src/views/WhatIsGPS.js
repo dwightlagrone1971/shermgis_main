@@ -4,7 +4,7 @@ import '../style/WhatIsGPS.css'
 
 function WhatIsGIS() {
     return (
-        <div class="lg:w-7/12 lg:m-auto">      
+        <div class="p-10 lg:w-7/12 lg:m-auto">      
             <h2 class="font-serif text-4xl mt-10 mb-10 lg:mb-12 lg:mt-14 lg:mb-2 lg:text-5xl">What is GPS?</h2>
             <div >                  
                 <div >

@@ -13,7 +13,7 @@ const items = [
 
 function Footer() {
   return (
-    <div class="fixed inset-x-0 bottom-0 bg-neutral-700 py-4 pt-12 pb-12 lg:py-4"> 
+    <div class="inset-x-0 bottom-0 bg-neutral-700 py-4 pt-12 pb-12 lg:py-4"> 
       <Grid class="lg:w-9/12 auto lg:m-auto grid lg:grid-cols-6 gap-4">
         {items.map((items, idx) => (
             <a
