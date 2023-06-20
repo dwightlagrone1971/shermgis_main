@@ -21,7 +21,8 @@ function Downloads() {
   return (
     <>
       <div class="">
-        <h2 className="font-serif text-4xl mt-10 mb-10 lg:mt-14 lg:mb-2 lg:text-5xl">GIS Downloads</h2>
+      <span><h2 class="pb-4 font-serif text-4xl mt-10 mb-18 lg:mt-14 lg:mb-2 lg:text-5xl"><strong>GIS Downloads</strong></h2>
+      <p class="lg:text-lg lg:mx-24 text-center"> Download formats CSV, KML, Shapefile or GeoJSON.</p></span>
 
         <Grid class="lg:w-9/12 auto lg:pt-16 lg:m-auto grid lg:grid-cols-3 lg:w-6/12 lg:gap-2 lg:text-center">
           {items.map((items, idx) => (
