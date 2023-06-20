@@ -1,6 +1,5 @@
 import React from 'react'
 import '../style/Downloads.css'
-import { Link } from "react-router-dom";
 import Button from '@mui/material/Button'
 import Grid from '@mui/material/Grid';
 
@@ -24,11 +23,12 @@ function Downloads() {
       <span><h2 class="pb-4 font-serif text-4xl mt-10 mb-18 lg:mt-14 lg:mb-2 lg:text-5xl"><strong>GIS Downloads</strong></h2>
       <p class="lg:text-lg lg:mx-24 text-center"> Download formats CSV, KML, Shapefile or GeoJSON.</p></span>
 
-        <Grid class="lg:w-9/12 auto lg:pt-16 lg:m-auto grid lg:grid-cols-3 lg:w-6/12 lg:gap-2 lg:text-center">
+        <Grid class="lg:w-9/12 auto lg:pt-10 lg:m-auto grid lg:grid-cols-3 lg:w-6/12 lg:gap-2 lg:text-center">
           {items.map((items, idx) => (
               <a 
                 href={items.href}
-                target="_blank"       
+                target="_blank"
+                rel="noreferrer"        
               >
                 <Button class="font-serif bg-neutral-700 hover:bg-neutral-500 text-neutral-200 mb-6 w-44 py-1 ">{items.name}</Button>
               </a>
