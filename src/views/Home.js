@@ -7,7 +7,7 @@ import Grid from '@mui/material/Grid';
 const items = [
   { name: "ALL-IN-ONE", href: "https://cityofsherman.maps.arcgis.com/apps/instant/sidebar/index.html?appid=af7d99d16f534760951983816168c082" },
   { name: "Residential Dashboard", href: "https://cityofsherman.maps.arcgis.com/apps/instant/lookup/index.html?appid=efd3c1d6d3144c9eb11326ec20c79626" },
-  { name: "Council District", href: "https://experience.arcgis.com/experience/97084b091f5d4972bc5d52d407a8cbab/?draft=true" },
+  { name: "Council District", href: "https://experience.arcgis.com/experience/f2ead96f4ef14f19bf2e23767b65d200/" },
 ];
 
 function Home() {
