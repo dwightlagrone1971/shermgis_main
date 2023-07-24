@@ -29,7 +29,7 @@ function Infographics() {
             target="_blank"
             href={items.href}       
           >
-            <Button class="font-serif bg-neutral-700 hover:bg-neutral-500 text-neutral-200 mb-6 w-44 py-1 ">{items.name}</Button>
+            <Button class="font-serif bg-neutral-700 hover:bg-neutral-500 text-neutral-200 mb-6 w-44 py-2 ">{items.name}</Button>
           </a>
         ))}          
       </Grid>

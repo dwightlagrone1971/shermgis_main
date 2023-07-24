@@ -22,7 +22,7 @@ function Home() {
                 target="_blank"
                 href={items.href}       
               >
-                <Button class="font-serif bg-neutral-700 text-neutral-200 hover:bg-neutral-500 mb-6 w-52 py-1 ">{items.name}</Button>
+                <Button class="font-serif bg-neutral-700 text-neutral-200 hover:bg-neutral-500 mb-6 w-52 py-2 ">{items.name}</Button>
               </a>
             ))}          
         </Grid>
@@ -30,7 +30,7 @@ function Home() {
             <Link 
               to="/external"            
             >
-              <Button class="bg-neutral-700 hover:bg-neutral-500 text-neutral-200 mb-10 w-48 py-1 mt-12" >More Maps</Button>
+              <Button class="bg-neutral-700 hover:bg-neutral-500 text-neutral-200 mb-10 w-48 py-2 mt-12" >More Maps</Button>
             </Link>
           </div>
       </div>       
