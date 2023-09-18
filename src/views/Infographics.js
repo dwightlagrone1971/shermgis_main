@@ -19,7 +19,7 @@ const items = [
 function Infographics() {
   return (
     <div class="h-screen lg:mt-12 lg:w-12/12 text-center">
-      <span><h2 class="pb-4 font-serif text-4xl mt-10 mb-18 lg:mt-14 lg:mb-2 lg:text-5xl"><strong>Infographics</strong></h2>
+      <span><h2 class="pb-4 font-serif text-4xl mt-8 mb-18 lg:mt-10 lg:mb-2 lg:text-5xl"><strong>Infographics</strong></h2>
       <p class="lg:text-lg lg:mx-24 text-center"> Infographics are a visual representation of information or data. The Infographics below use American Community
       Survey (ACS), Census, Esri forecasts, and third-party retail data.</p></span>
 
