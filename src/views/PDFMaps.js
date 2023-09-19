@@ -6,7 +6,7 @@ import Grid from '@mui/material/Grid';
 
 const items = [
   { name: "City Limits Map", href: "https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/7b05f3ab5b514ae99a9f665380721ada/data" },
-  { name: "City Limits Map (Small)", href: "https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/4009aba74faa4c40b57d3337f4f11706/data" },
+  //{ name: "City Limits Map (Small)", href: "https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/4009aba74faa4c40b57d3337f4f11706/data" },
   { name: "Control Monuments", href: "https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/878a50934b3b4adc85218e46af40f77d/data" },
   { name: "Council District Map", href: "https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/6891bd3aedfb41d59e25eed86d7fb0c3/data" },
   { name: "Future Land Use", href: "https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/a432bc22115d4bb48893ab4e65a1cf2b/data" },
