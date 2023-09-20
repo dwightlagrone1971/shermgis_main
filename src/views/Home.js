@@ -8,6 +8,7 @@ const items = [
   { name: "ALL-IN-ONE", href: "https://experience.arcgis.com/experience/8b9128d2736c4487a0831db01f0256b3/?draft=true" },
   { name: "Residential Dashboard", href: "https://cityofsherman.maps.arcgis.com/apps/instant/lookup/index.html?appid=efd3c1d6d3144c9eb11326ec20c79626" },
   { name: "Council District", href: "https://experience.arcgis.com/experience/f2ead96f4ef14f19bf2e23767b65d200/" },
+  { name: "New Developments", href: "https://experience.arcgis.com/experience/bf7f869e182c42df876a2e667559e24a/page/Development-Projects/?data_id=dataSource_2-18a242207a2-layer-5%3A35&draft=true&views=Proposed-" },
 ];
 
 function Home() {
@@ -16,7 +17,7 @@ function Home() {
       <div>
         <h2 class="font-serif text-4xl mt-10 mb-10 lg:mt-14 lg:mb-4 lg:text-5xl">Featured Maps</h2>
 
-        <Grid class="h-full lg:w-9/12 lg:pt-12 lg:m-auto grid lg:grid-cols-3 lg:gap-2 lg:w-6/12 lg:text-center">
+        <Grid class="h-full lg:w-9/12 lg:pt-12 lg:m-auto grid lg:grid-cols-4 lg:gap-2 lg:w-6/12 lg:text-center">
           {items.map((items, idx) => (
               <a 
                 target="_blank"
