@@ -8,7 +8,7 @@ const items = [
   { name: "ALL-IN-ONE", href: "https://experience.arcgis.com/experience/8b9128d2736c4487a0831db01f0256b3/?draft=true" },
   { name: "Residential Dashboard", href: "https://cityofsherman.maps.arcgis.com/apps/instant/lookup/index.html?appid=efd3c1d6d3144c9eb11326ec20c79626" },
   { name: "Council District", href: "https://experience.arcgis.com/experience/f2ead96f4ef14f19bf2e23767b65d200/" },
-  { name: "New Developments", href: "https://experience.arcgis.com/experience/bf7f869e182c42df876a2e667559e24a/page/Development-Projects/?data_id=dataSource_2-18a242207a2-layer-5%3A35&draft=true&views=Proposed-" },
+  { name: "New Developments", href: "https://www.arcgis.com/apps/dashboards/62869587b8964101897fcc3bf9ac130a" },
 ];
 
 function Home() {
