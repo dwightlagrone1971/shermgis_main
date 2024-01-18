@@ -7,7 +7,10 @@ import Grid from '@mui/material/Grid';
 const items = [
   { name: "2020 Census Summary", href: "https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/efc39b7428244ff1b1af5ac56cc1f7c6/data" },
   { name: "At Risk Population", href: "https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/e0c48bed80c34c78bbb240d02d36f072/data" },
+  { name: "Childhood and Female Equity", href: "https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/c849568be7e049858268186929f9e95f/data" },
+  { name: "Community Change Snapshot", href: "https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/63a1abdc2c92481ca7f15e69651f6b3a/data" },
   { name: "Community Profile", href: "https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/a8de093170a54f3f86aae4b773e22656/data" },
+  { name: "Commute Profile", href: "https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/f7d1e808f4884e53bbdb066fccd2e0f0/data" },
   { name: "Demographic Summary", href: "https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/7bcb90c26f6646e0bc582972c7ced355/data" },
   { name: "Employment Overview", href: "https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/03a3ef5669a8432c9e6b9d5250c1e072/data" },
   { name: "Healthcare & Insurance", href: "https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/89eba46f3e6d4e9bb6f82239029b8b4e/data" },
