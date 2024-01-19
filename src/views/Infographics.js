@@ -26,11 +26,11 @@ function Infographics() {
       <p class="lg:text-lg lg:mx-24 text-center"> Infographics are a visual representation of information or data. The Infographics below use American Community
       Survey (ACS), Census, Esri forecasts, and third-party retail data.</p></span>
 
-      <Grid class="pt-8 pb-8 lg:w-9/12 auto lg:pt-16 lg:m-auto grid lg:grid-cols-3 lg:w-6/12 lg:gap-2 lg:text-center">
+      <Grid class="lg:w-7/12 auto lg:pt-16 lg:m-auto grid lg:grid-cols-4 lg:w-6/12 lg:gap-2 lg:text-center">
         {items.map((items, idx) => (
           <a 
-            target="_blank"
-            href={items.href}       
+          target="_blank"
+          href={items.href}       
           >
             <Button class="font-serif bg-neutral-700 hover:bg-neutral-500 text-neutral-200 mb-6 w-44 py-2 ">{items.name}</Button>
           </a>
