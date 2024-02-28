@@ -15,7 +15,7 @@ const items = [
   { name: "Planning & Zoning", href: "https://cityofsherman.maps.arcgis.com/apps/dashboards/0f075ea148cf4eb1818a73566114fa7b" },
   { name: "Sex Offender Restricted", href: "https://cityofsherman.maps.arcgis.com/apps/dashboards/7797ab097a38493da51128f124d91370" },
   { name: "Sherman Schools", href: "https://cityofsherman.maps.arcgis.com/apps/dashboards/ba7afb45ee6d4e028fe81721efae9d01" },
-  { name: "Thoroughfares", href: "https://cityofsherman.maps.arcgis.com/apps/instant/interactivelegend/index.html?appid=5dbc6809eaa746e5909b8e82fe24d602" },
+  { name: "Thoroughfares", href: "https://cityofsherman.maps.arcgis.com/apps/dashboards/3b28c17a8cac472ab8ff18b0576cacfe" },
   { name: "Trash Pickup Days", href: "https://cityofsherman.maps.arcgis.com/apps/instant/lookup/index.html?appid=000839d23a014bd791bb19d4667f177c" },
   { name: "Zoning Districts", href: "https://cityofsherman.maps.arcgis.com/apps/dashboards/1e77f1f404ae4ff58043b6c88cdf1fd1" },
   
