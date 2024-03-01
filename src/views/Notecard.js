@@ -11,10 +11,11 @@ function NoteCard({ contact }) {
         <Card elevation={10} class="shadow-2xl bg-white hover:bg-neutral-100">
             <CardHeader
                 title={ contact.name }
-                subheader={ contact.title }       
+                subheader={ contact.title }      
             >
             </CardHeader>
             <CardContent class="p-8 w-60">
+                <Typography variant="body1" color="textSecondary" > { contact.department }</Typography>
                 <Typography variant="body1" color="textSecondary" > { contact.employer }</Typography>
                 <Typography variant="body1" color="textSecondary"> { contact.address }</Typography>
                 <Typography variant="body1" color="textSecondary"> { contact.city }</Typography>

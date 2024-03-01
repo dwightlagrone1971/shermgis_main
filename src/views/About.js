@@ -7,7 +7,7 @@ import Grid from '@mui/material/Grid';
 const items = [
   { name: "What is GIS?", to: "/gis" },
   { name: "What is GPS?", to: "/gps" },
-  { name: "Contact Us", to: "/contacts" },
+  { name: "GIS Team", to: "/contacts" },
  
 ];
 
