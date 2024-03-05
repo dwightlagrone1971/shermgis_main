@@ -5,7 +5,7 @@ import Button from '@mui/material/Button'
 import Grid from '@mui/material/Grid';
 
 const items = [
-  { name: "ALL-IN-ONE", href: "https://experience.arcgis.com/experience/8b9128d2736c4487a0831db01f0256b3/?draft=true" },
+  { name: "ALL-IN-ONE", href: "https://cityofsherman.maps.arcgis.com/apps/dashboards/cb19b06c606f4ce1bd9e96b8817d4e07" },
   { name: "Residential Dashboard", href: "https://cityofsherman.maps.arcgis.com/apps/instant/lookup/index.html?appid=efd3c1d6d3144c9eb11326ec20c79626" },  
   { name: "City Projects Site", href: "https://experience.arcgis.com/experience/edf1ffbd9dae4b12aeefc8b1ba594b26" },
 ];
