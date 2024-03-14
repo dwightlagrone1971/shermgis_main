@@ -16,7 +16,7 @@ function Home() {
       <div>
         <h2 class="font-serif text-4xl mt-10 mb-10 lg:mt-14 lg:mb-4 lg:text-5xl">Featured Maps</h2>
 
-        <Grid class="h-full lg:w-9/12 lg:pt-12 lg:m-auto grid lg:grid-cols-4 lg:gap-2 lg:w-6/12 lg:text-center">
+        <Grid class="h-full lg:w-9/12 lg:pt-12 lg:m-auto grid lg:grid-cols-3 lg:gap-2 lg:w-6/12 lg:text-center">
           {items.map((items, idx) => (
               <a 
                 target="_blank"
