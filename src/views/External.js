@@ -6,6 +6,7 @@ import Grid from '@mui/material/Grid';
 const items = [
   { name: "Annexations", href: "https://cityofsherman.maps.arcgis.com/apps/dashboards/2848ecc1229d454fa962392967548752" },
   { name: "Capital Improvements", href: "https://cityofsherman.maps.arcgis.com/apps/dashboards/1be8bb7a791645809e4cdc07d77c8178" },
+  { name: "City Projects Site", href: "https://experience.arcgis.com/experience/edf1ffbd9dae4b12aeefc8b1ba594b26" },
   { name: "Council District", href: "https://experience.arcgis.com/experience/f2ead96f4ef14f19bf2e23767b65d200/" },
   { name: "Development Projects", href: "https://experience.arcgis.com/experience/bf7f869e182c42df876a2e667559e24a/page/Development-Projects/?data_id=dataSource_2-18a242207a2-layer-5%3A35&draft=true&views=Proposed-" },
   { name: "Emergency Sirens", href: "https://cityofsherman.maps.arcgis.com/apps/dashboards/a3685004829d4465abd34e067f30c5fb" },
