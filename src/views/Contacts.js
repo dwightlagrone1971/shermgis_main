@@ -12,11 +12,11 @@ const contacts = [
 
 function Contacts() {
   return (
-    <div class="font-serif lg:w-5/12 lg:m-auto">      
+    <div class="font-serif sm:mt-4 lg:w-5/12 lg:m-auto">      
       <h2 class="font-serif text-4xl mt-10 mb-10 lg:mb-10 lg:mt-14 lg:mb-2 lg:text-5xl">GIS Team</h2>
-      <Grid container spacing={0} class="grid grid-cols-3 place-items-center" >
+      <Grid container spacing={0} class="grid grid-cols-1 lg:grid-cols-3 place-items-center" >
         {contacts.map(contact => (
-          <Grid item key={contact.id} xs="{12} md={8} lg={4}" >
+          <Grid item key={contact.id} xs="sm={12} md={8} lg={4}" >
             <NoteCard contact={contact} />
           </Grid>
         ))}
