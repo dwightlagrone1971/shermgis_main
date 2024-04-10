@@ -7,7 +7,7 @@ const items = [
   { name: "Annexations", href: "https://cityofsherman.maps.arcgis.com/apps/dashboards/2848ecc1229d454fa962392967548752" },
   { name: "Capital Improvements", href: "https://cityofsherman.maps.arcgis.com/apps/dashboards/818c88c6c1264590810cb91a0db2c24a" },
   { name: "City Projects Site", href: "https://experience.arcgis.com/experience/edf1ffbd9dae4b12aeefc8b1ba594b26" },
-  { name: "Council District", href: "https://experience.arcgis.com/experience/f2ead96f4ef14f19bf2e23767b65d200/" },
+  { name: "Council District", href: "https://cityofsherman.maps.arcgis.com/home/item.html?id=6891bd3aedfb41d59e25eed86d7fb0c3#overview" },
   { name: "Development Projects", href: "https://cityofsherman.maps.arcgis.com/apps/dashboards/5628948f1c1a464da61cc0bf966badf0" },
   { name: "Emergency Sirens", href: "https://cityofsherman.maps.arcgis.com/apps/dashboards/a3685004829d4465abd34e067f30c5fb" },
   { name: "Flood Zones (2023)", href: "https://cityofsherman.maps.arcgis.com/apps/dashboards/0544b4d51106433ba1c0637fb2c5f724" },
