@@ -10,7 +10,7 @@ const items = [
     { name: "GIS Downloads", to: "/downloads" },
     { name: "Infographics", to: "/graphics", },
     { name: "Internal Maps", to: "/internal" },
-    { name: "PDF Maps", to: "/maps" },
+    { name: "Maps", to: "/maps" },
     { name: "About", to: "/about" },
   ];
   
