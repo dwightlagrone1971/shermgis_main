@@ -15,7 +15,7 @@ const items = [
   { name: "Planned Developments", href: "https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/cf38bef2ed614d07bd278e806b84ab39/data" },
   { name: "Sherman Schools", href: "https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/098b94114bec4031a3638978be32874e/data" },
   { name: "Thoroughfare Map", href: "https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/2378452606ac4c0f940ec6c4e20e82ec/data" },
-  { name: "Zoning Map", href: "https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/e1e4313e1d1248228d6bb29b31163ac4/data" },
+  { name: "Zoning Map", href: "https://cityofsherman.maps.arcgis.com/sharing/rest/content/items/84a02175a8fc495ca1314ecaac4394ea/data" },
 ];
 
 
